@@ -120,4 +120,24 @@ public class MyLine {
         this.endPoint.setX(x);
         this.endPoint.setY(y);
     }
+
+    public double getLength() 
+    {
+        return this.beginPoint.distance(this.endPoint);
+    }
+
+    public double getGradient() 
+    {
+        double xDiff = this.endPoint.getX() - this.beginPoint.getX() ;
+        double yDiff = this.endPoint.getY() - this.beginPoint.getY();
+
+        return Math.atan2(yDiff, xDiff);
+    }
+
+    public String toString()
+    {
+       String lineString = "MyLine[begin=" + this.getBegin() + ",end=" + this.getEnd();
+
+       return lineString;
+    }
 }
