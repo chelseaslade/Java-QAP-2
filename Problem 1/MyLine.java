@@ -18,8 +18,8 @@ public class MyLine {
     }
 
     //Methods
-    public void getBegin()
+    public MyPoint getBegin()
     {
-        System.out.println(beginPoint);
+        return this.beginPoint;
     }
 }
