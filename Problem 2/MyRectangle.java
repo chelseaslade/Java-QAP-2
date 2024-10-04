@@ -42,6 +42,12 @@ public class MyRectangle {
         this.bottomRightPoint = new MyPoint(x2, y2);
     }
 
+    //getHeight()
+
+    
+    //getWidth()
+
+
     //toString()
 
 }
