@@ -43,10 +43,26 @@ public class MyRectangle {
     }
 
     //getHeight()
+    public int getHeight() 
+    {
+        int rectangleHeight = topLeftPoint.getY() - bottomRightPoint.getY();
+        return rectangleHeight;
+    }
 
-    
     //getWidth()
+    public int getWidth()
+    {
+        int rectangleWidth = bottomRightPoint.getX() - topLeftPoint.getX();
+        return rectangleWidth;
+    }
 
+    //getArea()
+    //A = wl
+    public int getArea()
+    {
+        int rectangleArea = getHeight() * getWidth();
+        return rectangleArea;
+    }
 
     //toString()
 
