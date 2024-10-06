@@ -65,5 +65,10 @@ public class MyRectangle {
     }
 
     //toString()
+    public String toString()
+    {
+        String rectangleString = "Rectangle height: " + getHeight() + " Rectangle width: " + getWidth() + " Rectangle area: " + getArea();
+        return rectangleString;
+    }
 
 }

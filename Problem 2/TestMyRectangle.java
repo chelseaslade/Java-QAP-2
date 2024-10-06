@@ -8,20 +8,20 @@ public class TestMyRectangle {
 
         MyRectangle rectangleOne = new MyRectangle(topLeftPoint, bottomRightPoint);
 
-        // //Test Methods
-        // //getTopLeft()
-        // System.out.println(rectangleOne.getTopLeft());
+        //Test Methods
+        //getTopLeft()
+        System.out.println(rectangleOne.getTopLeft());
 
-        // //setTopLeft()
-        // rectangleOne.setTopLeft(2,3);
-        // System.out.println(rectangleOne.topLeftPoint);
+        //setTopLeft()
+        rectangleOne.setTopLeft(2,3);
+        System.out.println(rectangleOne.topLeftPoint);
 
-        // //getBottomRight()
-        // System.out.println(rectangleOne.getBottomRight());
+        //getBottomRight()
+        System.out.println(rectangleOne.getBottomRight());
 
-        // //setBottomRight()
-        // rectangleOne.setBottomRight(5, 1);
-        // System.out.println(rectangleOne.bottomRightPoint);
+        //setBottomRight()
+        rectangleOne.setBottomRight(5, 1);
+        System.out.println(rectangleOne.bottomRightPoint);
 
         //getHeight()
         System.out.println(rectangleOne.getHeight());
@@ -33,5 +33,6 @@ public class TestMyRectangle {
         System.out.println(rectangleOne.getArea());
 
         //toString()
+        System.out.println(rectangleOne.toString());
     }
 }
