@@ -14,5 +14,9 @@ public class CreditCardDemo {
         CreditCard visa = new CreditCard(owner, LIMIT);
         System.out.println(visa.getPersonals());
 
+        System.out.println("Balance: " + visa.getBalance());
+        System.out.println("Credit Limit: " + visa.getCreditLimit());
+        System.out.println();
+        System.out.println("Attempt to charge: " + FIRST_AMOUNT);
     }
 }

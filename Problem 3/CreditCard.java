@@ -10,6 +10,7 @@ public class CreditCard {
     {
         this.owner = owner;
         this.creditLimit = creditLimit;
+        this.balance = new Money(0);
     }
 
     //Methods
@@ -31,10 +32,14 @@ public class CreditCard {
 
     public void charge(Money amount)
     {
+       //Add amount to balance
+        this.balance.add(amount);
     }
 
     public void payment(Money amount)
     {
+        //Subtract amount from balance
+        this.balance.subtract(amount);
     }
 
 }
