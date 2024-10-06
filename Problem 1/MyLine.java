@@ -1,7 +1,7 @@
 public class MyLine {
     //Attributes
-    public MyPoint beginPoint;
-    public MyPoint endPoint;
+    private MyPoint beginPoint;
+    private MyPoint endPoint;
 
     //Default Constructor
     public MyLine(MyPoint beginPoint, MyPoint endPoint)

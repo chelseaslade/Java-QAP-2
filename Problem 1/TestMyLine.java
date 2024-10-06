@@ -17,40 +17,40 @@ public class TestMyLine {
         //setBegin() using another MyPoint object
         MyPoint newBegin = new MyPoint(3,5);
         lineOne.setBegin(newBegin);
-        System.out.println(lineOne.beginPoint);
+        System.out.println(lineOne.getBegin());
 
         //setEnd() using another MyPoint object
         MyPoint newEnd = new MyPoint(1,2);
         lineOne.setEnd(newEnd);
-        System.out.println(lineOne.endPoint);
+        System.out.println(lineOne.getEnd());
 
         //getBeginX()
         System.out.println(lineOne.getBeginX());
 
         //setBeginX()
         lineOne.setBeginX(6);
-        System.out.println(lineOne.beginPoint);
+        System.out.println(lineOne.getBegin());
 
         //getBeginY()
         System.out.println(lineOne.getBeginY());
 
         //setBeginY()
         lineOne.setBeginY(2);
-        System.out.println(lineOne.beginPoint);
+        System.out.println(lineOne.getBegin());
 
         //getEndX()
         System.out.println(lineOne.getEndX());
 
         //setEndX()
         lineOne.setEndX(2);
-        System.out.println(lineOne.endPoint);
+        System.out.println(lineOne.getEnd());
         
         //getEndY()
         System.out.println(lineOne.getEndY());
 
         //setEndY()
         lineOne.setEndY(1);
-        System.out.println(lineOne.endPoint);
+        System.out.println(lineOne.getEnd());
 
         //getBeginXY()
         System.out.println("Get Begin XY: ");
@@ -58,8 +58,8 @@ public class TestMyLine {
 
         //setBeginXY()
         System.out.println("Set Begin XY: ");
-        lineOne.setBeginXY(2,3);
-        System.out.println(lineOne.beginPoint);
+        lineOne.setBeginXY(5,2);
+        System.out.println(lineOne.getBegin());
 
         //getEndXY()
         System.out.println("Get End XY: ");
@@ -68,14 +68,14 @@ public class TestMyLine {
         //setEndXY()
         System.out.println("Set End XY: ");
         lineOne.setEndXY(2,3);
-        System.out.println(lineOne.endPoint);
+        System.out.println(lineOne.getEnd());
 
         //getLength()
         System.out.println("Get Length: ");
         System.out.println(lineOne.getLength());
 
         //getGradient()
-        // System.out.println("Get Gradient: ");
+        System.out.println("Get Gradient: ");
         System.out.println(lineOne.getGradient());
 
         //toString()
