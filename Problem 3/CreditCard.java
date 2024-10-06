@@ -25,7 +25,8 @@ public class CreditCard {
 
     public String getPersonals()
     {
-        return owner.toString();
+        String personalsString = owner.toString();
+        return personalsString;
     }
 
     public void charge(Money amount)
