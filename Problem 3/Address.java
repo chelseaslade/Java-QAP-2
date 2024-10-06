@@ -1,11 +1,16 @@
 
 public class Address {
     //Attributes
-    protected String lastName;
-    protected String firstName;
-
-    //Constructor
+    private String street;
+    private String city;
+    private String state;
+    private String zip;
 
     
     //Methods
+    public String toString()
+    {
+        String addressString = this.street + "," + this.city + "," + this.state + "," + this.zip;
+        return addressString;
+    }
 }
