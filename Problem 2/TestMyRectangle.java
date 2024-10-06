@@ -14,14 +14,14 @@ public class TestMyRectangle {
 
         //setTopLeft()
         rectangleOne.setTopLeft(2,3);
-        System.out.println(rectangleOne.topLeftPoint);
+        System.out.println(rectangleOne.getTopLeft());
 
         //getBottomRight()
         System.out.println(rectangleOne.getBottomRight());
 
         //setBottomRight()
         rectangleOne.setBottomRight(5, 1);
-        System.out.println(rectangleOne.bottomRightPoint);
+        System.out.println(rectangleOne.getBottomRight());
 
         //getHeight()
         System.out.println(rectangleOne.getHeight());
