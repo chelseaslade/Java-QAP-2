@@ -17,6 +17,22 @@ public class CreditCardDemo {
         System.out.println("Balance: " + visa.getBalance());
         System.out.println("Credit Limit: " + visa.getCreditLimit());
         System.out.println();
+
         System.out.println("Attempt to charge: " + FIRST_AMOUNT);
+        visa.charge(FIRST_AMOUNT);
+        System.out.println("Balance: " + visa.getBalance());
+
+        System.out.println("Attempt to charge: " + SECOND_AMOUNT);
+        visa.charge(SECOND_AMOUNT);
+        System.out.println("Balance: " + visa.getBalance());
+
+        System.out.println("Attempt to charge: " + THIRD_AMOUNT);
+        visa.charge(THIRD_AMOUNT);
+        System.out.println("Balance: " + visa.getBalance());
+
+        System.out.println("Attempt to charge: " + FOURTH_AMOUNT);
+        visa.charge(FOURTH_AMOUNT);
+        System.out.println("Balance: " + visa.getBalance());
+
     }
 }

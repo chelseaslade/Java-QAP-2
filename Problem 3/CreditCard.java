@@ -32,8 +32,19 @@ public class CreditCard {
 
     public void charge(Money amount)
     {
-       //Add amount to balance
-        this.balance.add(amount);
+        Money compareBalance = new Money(this.balance);
+        compareBalance.add(amount);
+
+        if (compareBalance.compareTo(this.creditLimit) > 0)
+        {
+            //Error message
+            System.out.println("Exceeds credit limit");
+        }
+        else
+        {
+            //Add amount to balance if does not exceed limit
+            this.balance.add(amount);
+        }
     }
 
     public void payment(Money amount)
