@@ -11,44 +11,55 @@ public class TestMyLine {
         MyLine lineTwo = new MyLine(1, 2, 2, 4);
 
         //getBegin()
+        System.out.println("Get Begin: ");
         System.out.println(lineOne.getBegin());
         System.out.println(lineTwo.getBegin());
 
         //setBegin() using another MyPoint object
+        System.out.println("Set Begin: ");
         MyPoint newBegin = new MyPoint(3,5);
         lineOne.setBegin(newBegin);
         System.out.println(lineOne.getBegin());
 
         //setEnd() using another MyPoint object
+        System.out.println("Set End: ");
         MyPoint newEnd = new MyPoint(1,2);
         lineOne.setEnd(newEnd);
         System.out.println(lineOne.getEnd());
 
         //getBeginX()
+        System.out.println("Get Begin X: ");
         System.out.println(lineOne.getBeginX());
 
         //setBeginX()
+        System.out.println("Set Begin X: ");
         lineOne.setBeginX(6);
         System.out.println(lineOne.getBegin());
 
         //getBeginY()
+        System.out.println("Get Begin Y: ");
         System.out.println(lineOne.getBeginY());
 
         //setBeginY()
+        System.out.println("Set Begin Y: ");
         lineOne.setBeginY(2);
         System.out.println(lineOne.getBegin());
 
         //getEndX()
+        System.out.println("Get End X: ");
         System.out.println(lineOne.getEndX());
 
         //setEndX()
+        System.out.println("Set End X: ");
         lineOne.setEndX(2);
         System.out.println(lineOne.getEnd());
         
         //getEndY()
+        System.out.println("Get End Y: ");
         System.out.println(lineOne.getEndY());
 
         //setEndY()
+        System.out.println("Set End Y: ");
         lineOne.setEndY(1);
         System.out.println(lineOne.getEnd());
 
@@ -79,6 +90,7 @@ public class TestMyLine {
         System.out.println(lineOne.getGradient());
 
         //toString()
+        System.out.println("toString: ");
         System.out.println(lineOne.toString());
     }
 }
