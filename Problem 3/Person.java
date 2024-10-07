@@ -11,7 +11,6 @@ public class Person {
         this.lastName = lastName;
         this.firstName = firstName;
         this.home = home;
-        
     }
 
     //Methods

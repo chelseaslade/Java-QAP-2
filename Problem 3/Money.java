@@ -10,7 +10,6 @@ public class Money {
         this.dollars = (long) Math.floor(userAmount);
         double doubleCents = Math.round(((userAmount - Math.floor(userAmount)) * 100));
 
-
         this.cents = (long) doubleCents;
     }
 
@@ -74,7 +73,6 @@ public class Money {
         
         //If all equal, return 0
         return 0;
-
     }
 
     public boolean equals(Money amount)
