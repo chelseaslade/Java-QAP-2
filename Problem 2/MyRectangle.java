@@ -1,8 +1,8 @@
 
 public class MyRectangle {
     //Attributes
-    protected MyPoint topLeftPoint;
-    protected MyPoint bottomRightPoint;
+    private MyPoint topLeftPoint;
+    private MyPoint bottomRightPoint;
 
     //Constructors
     public MyRectangle(MyPoint topLeftPoint, MyPoint bottomRightPoint)
