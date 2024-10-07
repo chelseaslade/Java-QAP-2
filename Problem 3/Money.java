@@ -92,7 +92,6 @@ public class Money {
 
     public String toString()
     {
-        String moneyString = "$" + this.dollars + "." + this.cents;
-        return moneyString;
+        return String.format("$%d.%02d", this.dollars, this.cents);
     }
 }
